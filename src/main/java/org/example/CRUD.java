@@ -131,8 +131,8 @@ private List<Movie> list;
             System.out.println("데이터가 존재하지 않습니다.");
             return;
         }
-        System.out.println("NO  영화제목        장르      상영시간    누적관객수      기록날자     영화평점");
-        System.out.println("=========================================================================");
+        System.out.println("NO  영화제목            장르          상영시간    누적관객수      기록날자     영화평점");
+        System.out.println("================================================================================");
         for (Movie m : list) {
             System.out.println(m.toString());
         }

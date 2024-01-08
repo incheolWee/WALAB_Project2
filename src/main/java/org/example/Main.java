@@ -16,7 +16,6 @@ public class Main {
         System.out.println("총 "+list.size()+"개의 데이터를 파일에서 읽어왔습니다");
 
         System.out.println("--------------프로그램을 시작합니다--------------");
-        boolean check = true;
 
         while(true) {
             try{
