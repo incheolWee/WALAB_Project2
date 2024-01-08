@@ -55,8 +55,9 @@
         <img src="image/image_topRating.png" width="400" height="400"/>
          </li>
        <il>파일 저장 SaveFile<br>
-          <img src="image/image_saveFile.png" />
+          <img src="image/image_saveFile.png"/>
        </il>
+       <br>
         </li>프로그램 종료 Exit<br>
        <img src="image/image_end_program.png" width="400" height="400"/>
         </li>
