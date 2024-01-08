@@ -43,7 +43,7 @@ public class FileService {
             File file = new File("data.txt");
             FileUtils.write(file, "", false);
             for (Movie m : list) {
-                FileUtils.write(file, m.getName() + "/" + m.getGenre() + "/" + m.getRunningTime() + "/" + m.getViewor() + "/" + m.getRegDate() + "/" + m.getRating_Point());
+                FileUtils.write(file, m.getName() + "/" + m.getGenre() + "/" + m.getRunningTime() + "/" + m.getViewor() + "/" + m.getRegDate() + "/" + m.getRating_Point()+"\n",true);
             }
         } catch (FileNotFoundException e) {
             System.out.println("data.txt 파일 없음");
