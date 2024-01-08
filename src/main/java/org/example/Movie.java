@@ -30,7 +30,7 @@ public class Movie {
     public String toString() {
         return String.format("%2d", (num + 1)) + "\t"
                 + String.format("%-7s", name) + "\t" +
-                String.format("%5s", genre) + "\t\t" +
+                String.format("%14s", genre) + "\t\t" +
                 String.format("%4d", runningTime) + "m" + "\t\t" +
                 String.format("%4d", viewor) + "M" + "\t\t" +
                 regDate + "\t\t" +
