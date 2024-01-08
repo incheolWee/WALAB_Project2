@@ -29,7 +29,8 @@
   <li><h2>프로그램 실행 화면 및 설명</h2></li>
      <ol>
        <li>프로그램 실행<br>
-         
+         <p>파일에서 데이터 읽어 오기</p>
+         <img src="image/image_readFile.png"/>
           <img src="image/image_start.png" width="400" height="300"/>
          </li>
        <li>영화 추가 Create<br>
@@ -53,6 +54,9 @@
        <li>영화 평점순으로 정렬 Sort<br>
         <img src="image/image_topRating.png" width="400" height="400"/>
          </li>
+       <il>파일 저장 SaveFile<br>
+          <img src="image/image_saveFile.png" />
+       </il>
         </li>프로그램 종료 Exit<br>
        <img src="image/image_end_program.png" width="400" height="400"/>
         </li>
